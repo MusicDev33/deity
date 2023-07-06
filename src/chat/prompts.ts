@@ -3,19 +3,23 @@ All prompts and prompt templates are stored here.
 
 ILLUMINATE_THING - Come to ChatGPT with a situation and ask for THING in return
 */
-interface IPrompt {
+export interface IPrompt {
   role: 'system' | 'user' | 'assistant' | 'function'
   content: string
 }
 
-const PROMPT_ILLUMINATE_ITEM: IPrompt[] = [
+export const PROMPT_ILLUMINATE_ITEM: IPrompt[] = [
   {
-    role: 'system',
-    content: 'You are a machine programmed to only respond to questions with an item that will solve that question/problem.'
+    role: 'user',
+    content: 'You are a machine programmed to only respond to questions with an item that will solve that question/problem. Don\'t forget to take in other context as well.'
+  },
+  {
+    role: 'assistant',
+    content: 'Understood! I will only answer with one word answers, taking in consideration the context from here on out!'
   }
 ];
 
-const PROMPT_ILLUMINATE_BUILDING: IPrompt[] = [
+export const PROMPT_ILLUMINATE_BUILDING: IPrompt[] = [
   {
     role: 'system',
     content: 'You are a machine programmed to only respond to questions with a building that will solve that question/problem.'

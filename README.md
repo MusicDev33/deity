@@ -21,3 +21,7 @@ I'm not sure what I'm hoping to get out of this. But I think it's going to be co
 uses for them. Emergent behavior seems somewhat promising. It also seems like you can do some pretty high-level programming if you force the output to be somewhat deterministic.
 With the new plugin system that ChatGPT-4 has, you also have a high-level interface for other tasks within a web browser too. Anyway, the technology doesn't quite do what
 we expect, but if we keep pushing it, we'll find other uses.
+
+## Update
+I tried the approach of just asking ChatGPT for the items I need, and while that works, I'm also going to need ChatGPT to describe like...what to do. This is going to be a bit
+more complicated than I originally hoped it would be.

@@ -3,7 +3,7 @@ interface IItem {
   quantity: number
 }
 
-interface ISim {
+export interface ISim {
   skills: string[]
   needs: string[]
   inventory: IItem[]
